@@ -495,11 +495,19 @@ top: 200px;
 }
 
 .cabecalho{
-    position: fixed;
-    z-index: 1;
-    left: 45px;
+   width: 100%;
+   left: 0px;
 }
 
 .cabe{
     background-color: white;
+}
+
+header{
+    right: 1px;
+    position: fixed;
+    z-index: 1;
+    left: 2px;
+    top: 0px;
+    width: 100%;
 }
